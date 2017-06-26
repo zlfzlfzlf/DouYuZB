@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F8ABD9B91EFEE23000CD2D91 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8ABD9B71EFEE23000CD2D91 /* Home.storyboard */; };
+		F8ABD9BC1EFEE27800CD2D91 /* Lives.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8ABD9BA1EFEE27800CD2D91 /* Lives.storyboard */; };
+		F8ABD9BE1EFEE2BF00CD2D91 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8ABD9BD1EFEE2BF00CD2D91 /* Follow.storyboard */; };
+		F8ABD9C11EFEE2FA00CD2D91 /* prrfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8ABD9BF1EFEE2FA00CD2D91 /* prrfile.storyboard */; };
+		F8ABD9CB1EFEEC8A00CD2D91 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8ABD9CA1EFEEC8A00CD2D91 /* MainViewController.swift */; };
+		F8ABD9CD1EFEECE600CD2D91 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8ABD9CC1EFEECE600CD2D91 /* HomeViewController.swift */; };
+		F8ABD9D01EFEFBCA00CD2D91 /* UIBarButton-Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8ABD9CF1EFEFBCA00CD2D91 /* UIBarButton-Extention.swift */; };
+		F8ABD9D21EFF96A500CD2D91 /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8ABD9D11EFF96A500CD2D91 /* PageTitleView.swift */; };
+		F8ABD9D41EFF9B6100CD2D91 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8ABD9D31EFF9B6100CD2D91 /* Common.swift */; };
 		F8B37F011EFC0EB000FC3F38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B37F001EFC0EB000FC3F38 /* AppDelegate.swift */; };
 		F8B37F061EFC0EB000FC3F38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8B37F041EFC0EB000FC3F38 /* Main.storyboard */; };
 		F8B37F081EFC0EB000FC3F38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8B37F071EFC0EB000FC3F38 /* Assets.xcassets */; };
@@ -14,6 +23,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F8ABD9B81EFEE23000CD2D91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouYuZB/Base.lproj/Home.storyboard; sourceTree = SOURCE_ROOT; };
+		F8ABD9BB1EFEE27800CD2D91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouYuZB/Base.lproj/Lives.storyboard; sourceTree = SOURCE_ROOT; };
+		F8ABD9BD1EFEE2BF00CD2D91 /* Follow.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Follow.storyboard; path = ../Main/Follow.storyboard; sourceTree = "<group>"; };
+		F8ABD9C01EFEE2FA00CD2D91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouYuZB/Base.lproj/prrfile.storyboard; sourceTree = SOURCE_ROOT; };
+		F8ABD9CA1EFEEC8A00CD2D91 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F8ABD9CC1EFEECE600CD2D91 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F8ABD9CF1EFEFBCA00CD2D91 /* UIBarButton-Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButton-Extention.swift"; sourceTree = "<group>"; };
+		F8ABD9D11EFF96A500CD2D91 /* PageTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; };
+		F8ABD9D31EFF9B6100CD2D91 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		F8B37EFD1EFC0EB000FC3F38 /* DouYuZB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouYuZB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8B37F001EFC0EB000FC3F38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8B37F051EFC0EB000FC3F38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -33,6 +51,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F8ABD9C41EFEEC4B00CD2D91 /* Contrller */ = {
+			isa = PBXGroup;
+			children = (
+				F8ABD9CA1EFEEC8A00CD2D91 /* MainViewController.swift */,
+			);
+			path = Contrller;
+			sourceTree = "<group>";
+		};
+		F8ABD9C51EFEEC4B00CD2D91 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F8ABD9C61EFEEC4B00CD2D91 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F8ABD9D11EFF96A500CD2D91 /* PageTitleView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F8ABD9C71EFEEC5500CD2D91 /* Contrller */ = {
+			isa = PBXGroup;
+			children = (
+				F8ABD9CC1EFEECE600CD2D91 /* HomeViewController.swift */,
+			);
+			path = Contrller;
+			sourceTree = "<group>";
+		};
+		F8ABD9C81EFEEC5500CD2D91 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F8ABD9C91EFEEC5500CD2D91 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F8ABD9CE1EFEFB6600CD2D91 /* EXtention */ = {
+			isa = PBXGroup;
+			children = (
+				F8ABD9CF1EFEFBCA00CD2D91 /* UIBarButton-Extention.swift */,
+				F8ABD9D31EFF9B6100CD2D91 /* Common.swift */,
+			);
+			path = EXtention;
+			sourceTree = "<group>";
+		};
 		F8B37EF41EFC0EB000FC3F38 = {
 			isa = PBXGroup;
 			children = (
@@ -54,7 +126,6 @@
 			children = (
 				F8B37FF81EFC256400FC3F38 /* classes */,
 				F8B37F001EFC0EB000FC3F38 /* AppDelegate.swift */,
-				F8B37F041EFC0EB000FC3F38 /* Main.storyboard */,
 				F8B37F071EFC0EB000FC3F38 /* Assets.xcassets */,
 				F8B37F091EFC0EB000FC3F38 /* LaunchScreen.storyboard */,
 				F8B37F0C1EFC0EB000FC3F38 /* Info.plist */,
@@ -78,6 +149,7 @@
 		F8B37FF91EFC256400FC3F38 /* Follow */ = {
 			isa = PBXGroup;
 			children = (
+				F8ABD9BD1EFEE2BF00CD2D91 /* Follow.storyboard */,
 			);
 			path = Follow;
 			sourceTree = "<group>";
@@ -85,6 +157,10 @@
 		F8B37FFA1EFC256400FC3F38 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				F8ABD9C71EFEEC5500CD2D91 /* Contrller */,
+				F8ABD9C81EFEEC5500CD2D91 /* Model */,
+				F8ABD9C91EFEEC5500CD2D91 /* View */,
+				F8ABD9B71EFEE23000CD2D91 /* Home.storyboard */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -92,6 +168,7 @@
 		F8B37FFB1EFC256400FC3F38 /* Live */ = {
 			isa = PBXGroup;
 			children = (
+				F8ABD9BA1EFEE27800CD2D91 /* Lives.storyboard */,
 			);
 			path = Live;
 			sourceTree = "<group>";
@@ -99,6 +176,10 @@
 		F8B37FFC1EFC256400FC3F38 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				F8ABD9C41EFEEC4B00CD2D91 /* Contrller */,
+				F8ABD9C51EFEEC4B00CD2D91 /* Model */,
+				F8ABD9C61EFEEC4B00CD2D91 /* View */,
+				F8B37F041EFC0EB000FC3F38 /* Main.storyboard */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -106,6 +187,7 @@
 		F8B37FFD1EFC256400FC3F38 /* Proflie */ = {
 			isa = PBXGroup;
 			children = (
+				F8ABD9BF1EFEE2FA00CD2D91 /* prrfile.storyboard */,
 			);
 			path = Proflie;
 			sourceTree = "<group>";
@@ -113,6 +195,7 @@
 		F8B37FFE1EFC256400FC3F38 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				F8ABD9CE1EFEFB6600CD2D91 /* EXtention */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -178,8 +261,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8B37F0B1EFC0EB000FC3F38 /* LaunchScreen.storyboard in Resources */,
+				F8ABD9BC1EFEE27800CD2D91 /* Lives.storyboard in Resources */,
 				F8B37F081EFC0EB000FC3F38 /* Assets.xcassets in Resources */,
 				F8B37F061EFC0EB000FC3F38 /* Main.storyboard in Resources */,
+				F8ABD9B91EFEE23000CD2D91 /* Home.storyboard in Resources */,
+				F8ABD9BE1EFEE2BF00CD2D91 /* Follow.storyboard in Resources */,
+				F8ABD9C11EFEE2FA00CD2D91 /* prrfile.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,19 +277,52 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8ABD9D01EFEFBCA00CD2D91 /* UIBarButton-Extention.swift in Sources */,
 				F8B37F011EFC0EB000FC3F38 /* AppDelegate.swift in Sources */,
+				F8ABD9D21EFF96A500CD2D91 /* PageTitleView.swift in Sources */,
+				F8ABD9CB1EFEEC8A00CD2D91 /* MainViewController.swift in Sources */,
+				F8ABD9D41EFF9B6100CD2D91 /* Common.swift in Sources */,
+				F8ABD9CD1EFEECE600CD2D91 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		F8ABD9B71EFEE23000CD2D91 /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8ABD9B81EFEE23000CD2D91 /* Base */,
+			);
+			name = Home.storyboard;
+			path = ../Main;
+			sourceTree = "<group>";
+		};
+		F8ABD9BA1EFEE27800CD2D91 /* Lives.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8ABD9BB1EFEE27800CD2D91 /* Base */,
+			);
+			name = Lives.storyboard;
+			path = ../Main;
+			sourceTree = "<group>";
+		};
+		F8ABD9BF1EFEE2FA00CD2D91 /* prrfile.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8ABD9C01EFEE2FA00CD2D91 /* Base */,
+			);
+			name = prrfile.storyboard;
+			path = ../Main;
+			sourceTree = "<group>";
+		};
 		F8B37F041EFC0EB000FC3F38 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				F8B37F051EFC0EB000FC3F38 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		F8B37F091EFC0EB000FC3F38 /* LaunchScreen.storyboard */ = {
@@ -312,9 +432,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 6284Z8Z426;
 				INFOPLIST_FILE = DouYuZB/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zdu.stanford.cs193p.DouYuZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -327,9 +449,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 6284Z8Z426;
 				INFOPLIST_FILE = DouYuZB/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zdu.stanford.cs193p.DouYuZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -356,6 +480,7 @@
 				F8B37F111EFC0EB000FC3F38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
